@@ -1,7 +1,7 @@
 import pandas as pd
 import datetime
 
-locations = [351297, 324152, 354160, 351387, 351683, 324236, 353698, 310126, 324245, 310013, 352197]
+locations = [3772, 3134]
 weather_url_p1 = 'http://datapoint.metoffice.gov.uk/public/data/val/wxobs/all/json/'
 weather_url_p2 = '?res=hourly&key=a6657747-f1ee-4bc5-be21-270841e3658d'
 for loc in locations:

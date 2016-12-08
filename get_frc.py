@@ -8,4 +8,3 @@ for loc in locations:
     raw_weather = pd.read_json(weather_url_p1 + str(loc) + weather_url_p2)
     cur_time_stamp = datetime.datetime.now().strftime("%Y-%m-%d-%H")
     raw_weather.to_json('C:\\GIT\\Weather\\frc\\' + cur_time_stamp + '-id-' + str(loc) + '-frc.json')
-
